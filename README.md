@@ -188,18 +188,18 @@ FireDrones/
 
 ### A\* Pathfinding
 
-A\* is a best-first search algorithm that uses a heuristic `h(n)` to guide exploration toward the goal. For 4-connected grids with uniform movement cost 1, Manhattan distance is an admissible and consistent heuristic:
+A\* is a best-first search algorithm that uses a heuristic $h(n)$ to guide exploration toward the goal. For 4-connected grids with uniform movement cost 1, Manhattan distance is an admissible and consistent heuristic:
 
-```text
-f(n) = g(n) + h(n)
-h(n) = |col_n - col_goal| + |row_n - row_goal|
-```
+
+$$f(n) = g(n) + h(n)$$
+$$h(n) = |col_n - col_{goal}| + |row_{n} - row_{goal}|$$
+
 
 A\* expands fewer nodes than uninformed search on typical grid problems, making it the default planner.
 
 ### Dijkstra
 
-Dijkstra is Uniform Cost Search with no heuristic, equivalent to using `h(n) = 0`. It expands cells in non-decreasing distance order from the start and guarantees an optimal path on uniform-cost grids.
+Dijkstra is Uniform Cost Search with no heuristic, equivalent to using $h(n) = 0$. It expands cells in non-decreasing distance order from the start and guarantees an optimal path on uniform-cost grids.
 
 On the same grid, Dijkstra and A\* produce paths of identical length, but Dijkstra usually visits more cells, making it slower.
 
@@ -268,9 +268,7 @@ When battery or water drops below the threshold, the drone abandons its current 
 
 The objective is to minimize total assignment cost:
 
-```text
-J = Σ distance(drone_i, fire_j)
-```
+$$J = \sum \text{distance}(drone_{i}, fire_{j})$$
 
 where:
 
