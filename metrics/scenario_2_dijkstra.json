@@ -1,35 +1,35 @@
 {
-  "tick": 14,
+  "tick": 11,
   "active_fires": 0,
   "extinguished_fires": 1,
-  "avg_response_time": 14.0,
+  "avg_response_time": 11.0,
   "drones_in_mission": 0,
   "total_water": 75.0,
-  "total_battery": 86.0,
-  "total_distance": 14,
+  "total_battery": 89.0,
+  "total_distance": 11,
   "collisions_avoided": 0,
   "planning_calls": 1,
-  "total_nodes_expanded": 64,
-  "avg_nodes_expanded": 64.0,
-  "total_planning_time_ms": 0.185,
-  "avg_planning_time_ms": 0.185,
+  "total_nodes_expanded": 86,
+  "avg_nodes_expanded": 86.0,
+  "total_planning_time_ms": 0.396,
+  "avg_planning_time_ms": 0.396,
   "replans": 0,
-  "makespan": 14,
-  "throughput": 0.071,
-  "scenario": "scenario_1",
-  "algorithm": "astar",
+  "makespan": 11,
+  "throughput": 0.091,
+  "scenario": "scenario_2",
+  "algorithm": "dijkstra",
   "fires": [
     {
       "id": 1,
       "position": [
         8,
-        8
+        5
       ],
       "priority": 0,
       "spawn_tick": 0,
       "extinguished": true,
-      "extinguish_tick": 14,
-      "response_time": 14,
+      "extinguish_tick": 11,
+      "response_time": 11,
       "assigned_drone_id": 1
     }
   ],
@@ -38,12 +38,12 @@
       "id": 1,
       "position": [
         8,
-        8
+        5
       ],
       "state": "IDLE",
-      "battery": 86.0,
+      "battery": 89.0,
       "water": 75.0,
-      "distance": 14,
+      "distance": 11,
       "collisions_avoided": 0
     }
   ]

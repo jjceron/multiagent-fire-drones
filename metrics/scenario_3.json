@@ -1,0 +1,138 @@
+{
+  "tick": 12,
+  "active_fires": 0,
+  "extinguished_fires": 5,
+  "avg_response_time": 8.2,
+  "drones_in_mission": 0,
+  "total_water": 275.0,
+  "total_battery": 364.0,
+  "total_distance": 36,
+  "collisions_avoided": 0,
+  "planning_calls": 5,
+  "total_nodes_expanded": 95,
+  "avg_nodes_expanded": 19.0,
+  "total_planning_time_ms": 0.298,
+  "avg_planning_time_ms": 0.06,
+  "replans": 0,
+  "makespan": 12,
+  "throughput": 0.417,
+  "scenario": "scenario_3",
+  "algorithm": "astar",
+  "fires": [
+    {
+      "id": 1,
+      "position": [
+        7,
+        6
+      ],
+      "priority": 0,
+      "spawn_tick": 0,
+      "extinguished": true,
+      "extinguish_tick": 10,
+      "response_time": 10,
+      "assigned_drone_id": 3
+    },
+    {
+      "id": 2,
+      "position": [
+        3,
+        4
+      ],
+      "priority": 0,
+      "spawn_tick": 0,
+      "extinguished": true,
+      "extinguish_tick": 5,
+      "response_time": 5,
+      "assigned_drone_id": 1
+    },
+    {
+      "id": 3,
+      "position": [
+        11,
+        4
+      ],
+      "priority": 0,
+      "spawn_tick": 0,
+      "extinguished": true,
+      "extinguish_tick": 5,
+      "response_time": 5,
+      "assigned_drone_id": 2
+    },
+    {
+      "id": 4,
+      "position": [
+        3,
+        8
+      ],
+      "priority": 0,
+      "spawn_tick": 0,
+      "extinguished": true,
+      "extinguish_tick": 12,
+      "response_time": 12,
+      "assigned_drone_id": 4
+    },
+    {
+      "id": 5,
+      "position": [
+        11,
+        8
+      ],
+      "priority": 0,
+      "spawn_tick": 0,
+      "extinguished": true,
+      "extinguish_tick": 9,
+      "response_time": 9,
+      "assigned_drone_id": 2
+    }
+  ],
+  "drones": [
+    {
+      "id": 1,
+      "position": [
+        3,
+        4
+      ],
+      "state": "IDLE",
+      "battery": 95.0,
+      "water": 75.0,
+      "distance": 5,
+      "collisions_avoided": 0
+    },
+    {
+      "id": 2,
+      "position": [
+        11,
+        8
+      ],
+      "state": "IDLE",
+      "battery": 91.0,
+      "water": 50.0,
+      "distance": 9,
+      "collisions_avoided": 0
+    },
+    {
+      "id": 3,
+      "position": [
+        7,
+        6
+      ],
+      "state": "IDLE",
+      "battery": 90.0,
+      "water": 75.0,
+      "distance": 10,
+      "collisions_avoided": 0
+    },
+    {
+      "id": 4,
+      "position": [
+        3,
+        8
+      ],
+      "state": "IDLE",
+      "battery": 88.0,
+      "water": 75.0,
+      "distance": 12,
+      "collisions_avoided": 0
+    }
+  ]
+}
