@@ -18,6 +18,7 @@ LOW_WATER_THRESHOLD: float = 25.0
 RECHARGE_RATE: float = 10.0         # battery restored per tick at base
 REFILL_RATE: float = 10.0           # water restored per tick at base
 
+
 # --- Fires ---
 INITIAL_FIRES: int = 3
 FIRE_SPAWN_PROBABILITY: float = 0.02  # probability each tick a new fire spawns
